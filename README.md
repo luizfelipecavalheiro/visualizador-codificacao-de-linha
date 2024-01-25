@@ -1,4 +1,4 @@
-# visualizador-codificacao-de-linha
+## Gráficos de codificação de linha - Comunicação de Dados
 - Sistema de visualização para os códigos de linha NRZ-I, NRZ-L, AMI, Pseudoternário, Manchester e Mancherter Diferencial
 
 ### Padrões:
