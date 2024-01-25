@@ -33,9 +33,9 @@ def nrz_i(entrada):
     lista_nrz_i = []
   
     if entrada[0] == 0:
-      lista_nrz_i.append(1)
-    else:
       lista_nrz_i.append(-1)
+    else:
+      lista_nrz_i.append(1)
   
     for i in range(len(entrada)):
       if entrada[i] == 0 or i == 0:
@@ -53,15 +53,15 @@ def nrz_l(entrada):
     lista_nrz_l = []
 
     if entrada[0] == 0:
-      lista_nrz_l.append(-1)
-    else:
       lista_nrz_l.append(1)
+    else:
+      lista_nrz_l.append(-1)
       
     for i in range(len(entrada)):
       if entrada[i] == 1:
-        lista_nrz_l.append(1)
-      else:
         lista_nrz_l.append(-1)
+      else:
+        lista_nrz_l.append(1)
       
     plota_grafico(lista_nrz_l)
 
@@ -130,6 +130,7 @@ def manchester(entrada):
 def manchester_diferencial(entrada):
     lista_mandif = []
 
+    lista_mandif.append(0)
     if entrada[0] == 1:
       lista_mandif.append(1)
     else:
